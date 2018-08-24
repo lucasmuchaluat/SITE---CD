@@ -1,0 +1,17 @@
+.header {
+    border-style: solid;
+    border-width: 1px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.nav {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+}
+
+.nav-item {
+    background-color: gold;
+    display: inline;
+}
