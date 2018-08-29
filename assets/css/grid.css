@@ -1,0 +1,32 @@
+body {
+	background-color: red;
+}
+
+.parent {
+	background-color: white;
+	display: grid;
+	grid-template-rows: 5rem 10rem 15rem;
+	grid-template-columns: 25% 1fr 2fr;
+	margin: 1rem;
+	padding: 1rem;
+}
+
+.child-1, .child-2, .child-3{
+	padding: 1rem;
+}
+
+.child-1 {
+	background-color: red;
+	grid-row-start: ;
+	grid-row-end: ;
+	grid-column-start: ;
+	grid-column-end: ;
+}
+
+ .child-2 {
+ 	background-color: blue;
+ }
+
+ .child-3 {
+ 	background-color: white;
+ }
