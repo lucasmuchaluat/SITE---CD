@@ -73,14 +73,14 @@ html {
 }
 
 .submenu {
-    background-color: #000000;
-    border: 1px solid #00FF00;
+    background-color: #D8D8D8;
+    border: 2px solid black;
     position: absolute;
     top: 2.2rem;
     right: 1rem;
     opacity: 5;
     visibility: hidden;
-    transition: opacity .5s, visibility .5s;
+    transition: opacity .1s, visibility .1s;
 }
 
 .nav-item:hover .submenu {
@@ -89,14 +89,14 @@ html {
 }
 
 .submenu-item {
-    background-color: #000000;
-    color: #00FF00;
+    background-color: #D8D8D8;
+    color: black;
     padding: .25rem;
 }
 
 .submenu-item:hover {
-    background-color: #00FF00;
-    color: #000000;
+    background-color: red;
+    color: black;
 }
 
 .jumbotron {
@@ -180,3 +180,4 @@ h2::after {
     right: 0;
     border-bottom: 3px solid #ec576b;
 }
+
