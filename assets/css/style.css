@@ -18,22 +18,30 @@ html {
     height: 7rem;
     margin: 0.75rem;
     padding: 0.7rem;
+    display: flex;
+    justify-content: space-between;
 }
 
-.nav {
-    position: absolute;
-    top: -6.25rem;
-    right: -5rem;
-    margin: 10rem;
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+
 }
 
+.nav{
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1;
+}
 .nav-item {
+    display: flex;
     background-color: #BEBEBE;
     font-size: 1.1rem;
-    display: inline;
+    justify-content: center;
     margin: 2.0rem;
     padding: 0.9rem;
-    position: relative;
+    flex-grow: 1;
 }
 
 .text, .figure {
@@ -75,9 +83,6 @@ html {
 .submenu {
     background-color: #D8D8D8;
     border: 2px solid black;
-    position: absolute;
-    top: 2.2rem;
-    right: 1rem;
     opacity: 5;
     visibility: hidden;
     transition: opacity .1s, visibility .1s;
